@@ -1,38 +1,17 @@
 # Haifa.News
 
-Русскоязычная городская лента о Хайфе и севере Израиля. Статический сайт для GitHub Pages — без PostgreSQL и без сервера.
+> **Демо-сайт.** Этот проект — демонстрационный пример. Домен **haifa.news** продаётся, у него большой трафик. По вопросам покупки: [haifanews@pm.me](mailto:haifanews@pm.me)
+>
+> **Demo site.** This website is for demonstration purposes only. The domain **haifa.news** is for sale and has significant traffic. Inquiries: [haifanews@pm.me](mailto:haifanews@pm.me)
+>
+> **אתר לדוגמה.** אתר זה מוצג להמחשה בלבד. הדומיין **haifa.news** נמכר — עם תנועה גבוהה. לרכישה: [haifanews@pm.me](mailto:haifanews@pm.me)
 
-**Сайт:** https://haifa.news
+**https://haifa.news**
 
-## Быстрый старт
+---
 
-```bash
-python3 scripts/build_static.py --base-url https://haifa.news
-python3 -m http.server 8080   # http://localhost:8080
-```
+Haifa.News — русскоязычная городская лента новостей о Хайфе и севере Израиля: город, безопасность, транспорт, общество, бизнес и культура.
 
-Подробнее: [STATIC.md](STATIC.md)
+Сайт собран как статическая версия новостного портала с архивом материалов, рубриками и медиафайлами. Контент ориентирован на русскоязычных жителей Хайфы и региона.
 
-## GitHub Pages + custom domain
-
-1. Соберите сайт (команда выше).
-2. Файл [`CNAME`](CNAME) содержит `haifa.news` — не удаляйте его.
-3. На GitHub: **Settings → Pages → Custom domain** → `haifa.news`.
-4. **Source:** Deploy from branch → `main` → `/ (root)`.
-
-## Структура
-
-| Путь | Назначение |
-|---|---|
-| `index.html`, `article/`, `category/` | Сгенерированный статический сайт |
-| `uploads/` | Медиафайлы статей |
-| `assets/` | CSS |
-| `export/wp-export.json` | Исходные данные для сборки |
-| `scripts/build_static.py` | Генератор статики |
-| `backend/` | Go API (только для прод-сервера) |
-
-## Обновление новостей
-
-1. Обновите `export/wp-export.json`.
-2. `python3 scripts/build_static.py --base-url https://haifa.news`
-3. Commit + push.
+Связаться с редакцией или обсудить покупку домена: **haifanews@pm.me**
