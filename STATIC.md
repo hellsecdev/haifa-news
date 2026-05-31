@@ -1,50 +1,37 @@
 # Haifa.News — static build
 
-Статический сайт для **GitHub Pages из корня репозитория** (без PostgreSQL, без Go-сервера).
+Статический сайт для **GitHub Pages** с custom domain **https://haifa.news**.
 
 ## Сборка
-
-```bash
-python3 scripts/build_static.py --base-url https://hellsecdev.github.io/haifa-news
-```
-
-Скрипт автоматически добавит префикс `/haifa-news` ко всем ссылкам, CSS и картинкам.
-
-Для custom domain:
 
 ```bash
 python3 scripts/build_static.py --base-url https://haifa.news
 ```
 
-Результат пишется в корень репозитория: `index.html`, `about/`, `article/`, `category/`, `assets/`, `api/`, `sitemap.xml`, `robots.txt`, `.nojekyll`.
-
-Локальный просмотр:
+Для GitHub Pages без custom domain (подпапка):
 
 ```bash
-python3 -m http.server 8080
+python3 scripts/build_static.py --base-url https://hellsecdev.github.io/haifa-news
 ```
 
-## Публикация на GitHub Pages
+## Публикация
 
-1. Соберите сайт (команда выше).
-2. Закоммитьте и запушьте всё в `main` (включая `uploads/` ~1 GB).
-3. GitHub → **Settings → Pages**:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/ (root)**
-4. Через 1–3 минуты сайт откроется: https://hellsecdev.github.io/haifa-news/
+1. Соберите сайт.
+2. Убедитесь, что [`CNAME`](CNAME) содержит `haifa.news`.
+3. Push в `main`.
+4. GitHub → **Settings → Pages** → Custom domain: `haifa.news`, branch `main`, folder `/ (root)`.
 
-### Custom domain (опционально)
+## DNS (если ещё не настроено)
 
-Если привяжете `haifa.news` в Settings → Pages, пересоберите с `--base-url https://haifa.news`.
+| Тип | Имя | Значение |
+|---|---|---|
+| A | `@` | `185.199.108.153` … `185.199.111.153` (4 адреса GitHub Pages) |
+| CNAME | `www` | `hellsecdev.github.io` |
+
+Или один ALIAS/ANAME на `hellsecdev.github.io` — зависит от регистратора.
 
 ## Обновление контента
 
 1. Обновите `export/wp-export.json`.
-2. Запустите `scripts/build_static.py`.
+2. `python3 scripts/build_static.py --base-url https://haifa.news`
 3. Commit + push.
-
-## Ограничения
-
-- `/admin` не работает на статике.
-- Поиск — через навигацию по рубрикам и HTML-страницам.
