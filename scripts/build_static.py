@@ -14,9 +14,10 @@ from urllib.parse import quote, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPORT = ROOT / "export" / "wp-export.json"
-ASSET_VER = "20260525v8"
+ASSET_VER = "20260531v1"
 HOME_LIMIT = 12
 CATEGORY_PAGE_SIZE = 60
+CONTACT_EMAIL = "haifanews@pm.me"
 BASE_PATH = ""
 
 
@@ -97,6 +98,18 @@ def head(title: str, desc: str, canonical: str) -> str:
 <div id="app">"""
 
 
+def domain_notice() -> str:
+    email = CONTACT_EMAIL
+    return f"""
+<div class="domain-notice" role="note">
+<div class="wrap domain-notice-inner">
+<p lang="ru"><strong>Демо-сайт.</strong> Этот проект является демонстрационным примером. Домен <b>haifa.news</b> продаётся — у него большой трафик. По вопросам покупки: <a href="mailto:{email}">{email}</a></p>
+<p lang="en"><strong>Demo site.</strong> This website is for demonstration purposes only. The domain <b>haifa.news</b> is for sale and has significant traffic. Inquiries: <a href="mailto:{email}">{email}</a></p>
+<p lang="he" dir="rtl"><strong>אתר לדוגמה.</strong> אתר זה מוצג להמחשה בלבד. הדומיין <b>haifa.news</b> נמכר — עם תנועה גבוהה. לרכישה: <a href="mailto:{email}">{email}</a></p>
+</div>
+</div>"""
+
+
 def nav() -> str:
     return f"""
 <div class="ticker"><span><b>LIVE</b> Haifa.News · Хайфа · Север Израиля · город · безопасность · общество</span></div>
@@ -111,7 +124,8 @@ def nav() -> str:
 </nav>
 <div class="search">Поиск</div>
 </div>
-</header>"""
+</header>
+{domain_notice()}"""
 
 
 def footer() -> str:
@@ -238,13 +252,13 @@ def build_home(base_url: str, categories: list[dict], posts: list[dict], out: Pa
 <h2>Лента новостей</h2>
 <div class="grid">"""
         + cards
-        + """
+        + f"""
 </div>
 </div>
 <aside>
 <h3>Редакция</h3>
 <p>Сообщить новость или связаться с редакцией.</p>
-<a href="mailto:newsroom@haifa.news">newsroom@haifa.news</a>
+<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>
 </aside>
 </section>
 </main>"""
@@ -261,7 +275,7 @@ def build_about(base_url: str, categories: list[dict], out: Path) -> None:
             f"{base_url}/about",
         )
         + nav()
-        + """
+        + f"""
 <main class="wrap article-page">
 <article class="article">
 <p class="kicker">Haifa.News</p>
@@ -269,7 +283,7 @@ def build_about(base_url: str, categories: list[dict], out: Path) -> None:
 <p class="lead">Haifa.News — русскоязычная городская лента о Хайфе и севере Израиля: важные новости, безопасность, транспорт, общество, бизнес и культура.</p>
 <div class="body">
 <p>Мы собираем и публикуем материалы, которые помогают жителям Хайфы быстро понимать, что происходит в городе и регионе.</p>
-<p>Сообщить новость, прислать уточнение или связаться с редакцией можно по адресу: <a href="mailto:newsroom@haifa.news">newsroom@haifa.news</a>.</p>
+<p>Сообщить новость, прислать уточнение или связаться с редакцией можно по адресу: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
 </div>
 </article>
 """
