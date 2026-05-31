@@ -10,17 +10,51 @@ import shutil
 import sys
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPORT = ROOT / "export" / "wp-export.json"
 ASSET_VER = "20260525v8"
 HOME_LIMIT = 12
 CATEGORY_PAGE_SIZE = 60
+BASE_PATH = ""
+
+
+def set_base_path(base_url: str, base_path: str | None) -> None:
+    global BASE_PATH
+    if base_path is not None:
+        BASE_PATH = base_path.rstrip("/")
+        if BASE_PATH and not BASE_PATH.startswith("/"):
+            BASE_PATH = f"/{BASE_PATH}"
+        return
+    path = urlparse(base_url).path.strip("/")
+    BASE_PATH = f"/{path}" if path else ""
+
+
+def u(path: str) -> str:
+    if not path.startswith("/"):
+        path = f"/{path}"
+    return f"{BASE_PATH}{path}" if BASE_PATH else path
 
 
 def esc(text: str) -> str:
-    return html.escape(text or "", quote=True)
+    return html.escape(html.unescape(text or ""), quote=True)
+
+
+def fix_url(url: str) -> str:
+    if url.startswith("/"):
+        return u(url)
+    return url
+
+
+def rewrite_html(content: str) -> str:
+    if not content:
+        return ""
+    for attr in ("src", "href"):
+        for root in ("/uploads/", "/assets/"):
+            content = content.replace(f'{attr}="{root}', f'{attr}="{u(root)}')
+            content = content.replace(f"{attr}='{root}", f"{attr}='{u(root)}")
+    return content
 
 
 def fmt_date(iso: str) -> str:
@@ -40,11 +74,11 @@ def fmt_iso(iso: str) -> str:
 
 
 def article_href(slug: str) -> str:
-    return f"/article/{quote(slug, safe='')}"
+    return u(f"/article/{quote(slug, safe='')}")
 
 
 def category_href(slug: str) -> str:
-    return f"/category/{quote(slug, safe='')}"
+    return u(f"/category/{quote(slug, safe='')}")
 
 
 def head(title: str, desc: str, canonical: str) -> str:
@@ -57,23 +91,23 @@ def head(title: str, desc: str, canonical: str) -> str:
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{esc(canonical)}">
-<link rel="stylesheet" href="/assets/index.css?v={ASSET_VER}">
+<link rel="stylesheet" href="{u('/assets/index.css')}?v={ASSET_VER}">
 </head>
 <body>
 <div id="app">"""
 
 
 def nav() -> str:
-    return """
+    return f"""
 <div class="ticker"><span><b>LIVE</b> Haifa.News · Хайфа · Север Израиля · город · безопасность · общество</span></div>
 <header class="head">
 <div class="wrap bar">
-<a class="brand" href="/"><span>H</span><strong>Haifa.News</strong><small>independent city desk</small></a>
+<a class="brand" href="{u('/')}"><span>H</span><strong>Haifa.News</strong><small>independent city desk</small></a>
 <nav>
-<a href="/">Главная</a>
-<a href="/category/новости-израиля">Израиль</a>
-<a href="/category/новости-хайфы">Хайфа</a>
-<a href="/about">Редакция</a>
+<a href="{u('/')}">Главная</a>
+<a href="{u('/category/новости-израиля')}">Израиль</a>
+<a href="{u('/category/новости-хайфы')}">Хайфа</a>
+<a href="{u('/about')}">Редакция</a>
 </nav>
 <div class="search">Поиск</div>
 </div>
@@ -152,8 +186,8 @@ def load_data() -> tuple[list[dict], list[dict]]:
                 "title": raw["title"],
                 "slug": raw["slug"],
                 "excerpt": raw.get("excerpt") or "",
-                "content": raw.get("content") or "",
-                "featured_image": raw.get("featured_image") or "",
+                "content": rewrite_html(raw.get("content") or ""),
+                "featured_image": fix_url(raw.get("featured_image") or ""),
                 "published_at": raw.get("published_at") or "",
                 "updated_at": raw.get("updated_at") or raw.get("published_at") or "",
                 "category": cat,
@@ -286,8 +320,8 @@ def build_article(base_url: str, categories: list[dict], post: dict, out: Path) 
 </article>
 """
         + aside_categories(categories)
-        + """
-<aside><a href="/">← Главная</a></aside>
+        + f"""
+<aside><a href="{u('/')}">← Главная</a></aside>
 </main>"""
         + footer()
     )
@@ -483,9 +517,17 @@ def main() -> int:
         action="store_true",
         help="Copy uploads/ into output instead of symlink (for CI)",
     )
+    parser.add_argument(
+        "--base-path",
+        default=None,
+        help="URL prefix for GitHub project pages, e.g. /haifa-news (auto from --base-url if omitted)",
+    )
     args = parser.parse_args()
     base_url = args.base_url.rstrip("/")
     out: Path = args.out.resolve()
+    set_base_path(base_url, args.base_path)
+    if BASE_PATH:
+        print(f"  base path: {BASE_PATH}")
 
     if not EXPORT.exists():
         print(f"Missing export file: {EXPORT}", file=sys.stderr)

@@ -5,13 +5,15 @@
 ## Сборка
 
 ```bash
-python3 scripts/build_static.py --base-url https://haifa.news
+python3 scripts/build_static.py --base-url https://hellsecdev.github.io/haifa-news
 ```
 
-Для GitHub Pages без custom domain:
+Скрипт автоматически добавит префикс `/haifa-news` ко всем ссылкам, CSS и картинкам.
+
+Для custom domain:
 
 ```bash
-python3 scripts/build_static.py --base-url https://hellsecdev.github.io/haifa-news
+python3 scripts/build_static.py --base-url https://haifa.news
 ```
 
 Результат пишется в корень репозитория: `index.html`, `about/`, `article/`, `category/`, `assets/`, `api/`, `sitemap.xml`, `robots.txt`, `.nojekyll`.

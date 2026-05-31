@@ -5,8 +5,8 @@
 ## Быстрый старт
 
 ```bash
-python3 scripts/build_static.py --base-url https://haifa.news
-python3 -m http.server 8080   # http://localhost:8080
+python3 scripts/build_static.py --base-url https://hellsecdev.github.io/haifa-news
+python3 -m http.server 8080   # http://localhost:8080/haifa-news/
 ```
 
 Подробнее: [STATIC.md](STATIC.md)
