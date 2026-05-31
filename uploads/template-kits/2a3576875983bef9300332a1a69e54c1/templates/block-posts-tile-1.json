@@ -1,0 +1,57 @@
+{
+    "version": "0.4",
+    "title": "Block: Posts Tile 1",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "25c644ed",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "6893fd31",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "39867232",
+                            "settings": {
+                                "show_category": "",
+                                "show_comments": "",
+                                "card_height": {
+                                    "unit": "px",
+                                    "size": 240,
+                                    "sizes": []
+                                },
+                                "grid_thumbnail_size": "medium_large",
+                                "__globals__": {
+                                    "typography_teaser_title_typography": "globals\/typography?id=da21c65",
+                                    "typography_teaser_meta_typography": "globals\/typography?id=36c5ea9"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "anwp-pg-hero-block",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}

@@ -1,0 +1,579 @@
+{
+    "version": "0.4",
+    "title": "Block: Contact Information",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-contact",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "76ad6f65",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "0",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "5ef43684",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "background_background": "classic",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "40",
+                            "bottom": "40",
+                            "left": "40",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=a141cd2"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "17755638",
+                            "settings": {
+                                "title": "Phone Contact",
+                                "align": "left",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=d9f459b",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "178fc137",
+                            "settings": {
+                                "text": "Divider",
+                                "weight": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "color": "globals\/colors?id=dfceda1"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "420396a0",
+                            "settings": {
+                                "eael_feature_list": [
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "fas fa-phone",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_feature_list_title": "Support Desk",
+                                        "eael_feature_list_content": "+1 111 222 3333",
+                                        "_id": "b085943",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "eael_feature_list_img": {
+                                            "id": 3147,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-21.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "fas fa-phone",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_feature_list_title": "Complaint",
+                                        "eael_feature_list_content": "+1 222 333 4444",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "5b9b696",
+                                        "eael_feature_list_img": {
+                                            "id": 3148,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-22.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "fas fa-phone",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_feature_list_title": "Advertisement",
+                                        "eael_feature_list_content": "+1 333 444 5555",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "3fdc252",
+                                        "eael_feature_list_img": {
+                                            "id": 3149,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-23.png"
+                                        }
+                                    }
+                                ],
+                                "eael_feature_list_title_size": "h4",
+                                "eael_feature_list_connector": "yes",
+                                "eael_feature_list_space_between": {
+                                    "unit": "px",
+                                    "size": 35,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_connector_styles": "dotted",
+                                "eael_feature_list_connector_color": "#927C59",
+                                "eael_feature_list_connector_width": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_background_background": "classic",
+                                "eael_feature_list_icon_color": "#FFFFFF",
+                                "eael_feature_list_icon_circle_size": {
+                                    "unit": "px",
+                                    "size": 48,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_padding": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "10",
+                                    "bottom": "10",
+                                    "left": "10",
+                                    "isLinked": true
+                                },
+                                "eael_feature_list_icon_space": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_title_bottom_space": {
+                                    "unit": "px",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "eael_feature_list_connector_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_icon_color": "",
+                                    "eael_feature_list_icon_background_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_title_typography_typography": "globals\/typography?id=text",
+                                    "eael_feature_list_title_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_description_color": "globals\/colors?id=text",
+                                    "eael_feature_list_description_typography_typography": "globals\/typography?id=0d262bb"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-feature-list",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "27bcd3ab",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "background_background": "classic",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "40",
+                            "bottom": "40",
+                            "left": "40",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "61d00e75",
+                            "settings": {
+                                "title": "Address",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=d9f459b"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "68280ce8",
+                            "settings": {
+                                "text": "Divider",
+                                "color": "#FFFFFF42",
+                                "weight": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "color": ""
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1ed61cc3",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-map-marker-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "size": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "icon_padding": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "primary_color": "globals\/colors?id=a141cd2",
+                                    "secondary_color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6d2f86f3",
+                            "settings": {
+                                "title": "121 King Street, Melbourne\nVictoria 3000, Australia",
+                                "header_size": "p",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=dec4296"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "7e20bba5",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "background_background": "classic",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "40",
+                            "bottom": "40",
+                            "left": "40",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=a141cd2"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "5d75067",
+                            "settings": {
+                                "title": "Email Contact",
+                                "align": "left",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=d9f459b",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "59edb6d0",
+                            "settings": {
+                                "text": "Divider",
+                                "weight": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "color": "globals\/colors?id=dfceda1"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6d87fa37",
+                            "settings": {
+                                "eael_feature_list": [
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "far fa-envelope",
+                                            "library": "fa-regular"
+                                        },
+                                        "eael_feature_list_title": "Support Desk",
+                                        "eael_feature_list_content": "support@example.com",
+                                        "_id": "b085943",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "eael_feature_list_img": {
+                                            "id": 3150,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-24.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "far fa-envelope",
+                                            "library": "fa-regular"
+                                        },
+                                        "eael_feature_list_title": "Complaint",
+                                        "eael_feature_list_content": "complaint@example.com",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "5b9b696",
+                                        "eael_feature_list_img": {
+                                            "id": 3151,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-25.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_feature_list_icon_new": {
+                                            "value": "far fa-envelope",
+                                            "library": "fa-regular"
+                                        },
+                                        "eael_feature_list_title": "Advertisement",
+                                        "eael_feature_list_content": "advert@example.com",
+                                        "eael_feature_list_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "3fdc252",
+                                        "eael_feature_list_img": {
+                                            "id": 3152,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/placeholder-26.png"
+                                        }
+                                    }
+                                ],
+                                "eael_feature_list_title_size": "h4",
+                                "eael_feature_list_connector": "yes",
+                                "eael_feature_list_space_between": {
+                                    "unit": "px",
+                                    "size": 35,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_connector_styles": "dotted",
+                                "eael_feature_list_connector_color": "#927C59",
+                                "eael_feature_list_connector_width": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_background_background": "classic",
+                                "eael_feature_list_icon_color": "#FFFFFF",
+                                "eael_feature_list_icon_circle_size": {
+                                    "unit": "px",
+                                    "size": 48,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_icon_padding": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "10",
+                                    "bottom": "10",
+                                    "left": "10",
+                                    "isLinked": true
+                                },
+                                "eael_feature_list_icon_space": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "eael_feature_list_title_bottom_space": {
+                                    "unit": "px",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "eael_feature_list_connector_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_icon_color": "",
+                                    "eael_feature_list_icon_background_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_title_typography_typography": "globals\/typography?id=text",
+                                    "eael_feature_list_title_color": "globals\/colors?id=accent",
+                                    "eael_feature_list_description_color": "globals\/colors?id=text",
+                                    "eael_feature_list_description_typography_typography": "globals\/typography?id=0d262bb"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-feature-list",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

@@ -1,0 +1,399 @@
+{
+    "version": "0.4",
+    "title": "Block: Team",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-team",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "46d9570f",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "316cbdee",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "7ef55586",
+                            "settings": {
+                                "eael_fg_items_to_show": "32",
+                                "eael_fg_filter_duration": 500,
+                                "columns": "4",
+                                "eael_fg_grid_item_height": "360",
+                                "eael_fg_caption_style": "card",
+                                "eael_fg_grid_hover_transition": {
+                                    "unit": "px",
+                                    "size": 148,
+                                    "sizes": []
+                                },
+                                "eael_fg_show_popup": "none",
+                                "eael_fg_all_label_text": "All",
+                                "eael_fg_controls": [
+                                    {
+                                        "eael_fg_control": "Executives",
+                                        "_id": "a756464"
+                                    },
+                                    {
+                                        "eael_fg_control": "In The Field",
+                                        "_id": "3840467"
+                                    },
+                                    {
+                                        "eael_fg_control": "Innovators",
+                                        "_id": "814d142"
+                                    }
+                                ],
+                                "eael_fg_gallery_items": [
+                                    {
+                                        "eael_fg_gallery_item_name": "Selena Garrett",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Executives",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "",
+                                        "eael_fg_gallery_item_content": "<p>Executive Editor<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2859,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-mature-woman-in-eyeglasses.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "5b87bc3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3128,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-24.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Leon Sharp",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Executives",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Chief Executive Officer",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2860,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/mature-corporate-executive-wearing-a-suit-and-smiling-confidently.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "bf769f6",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3129,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-25.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Elmer Holland",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Deputy Editor, Business",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2861,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-male-executive-in-office.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "92b5d01",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3130,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-26.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Sheila Davis",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "International Correspondent",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2862,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-attractive-afro-woman-in-coffee-shop.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "75f2a3e",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3131,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-27.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Harri Cooper",
+                                        "_id": "b821878",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "National Correspondent",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2863,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-a-young-smiling-professional-man-arms-crossed.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3132,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-28.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Tiffany Mack",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Supreme Court Reporter",
+                                        "eael_fg_gallery_img": {
+                                            "id": 3642,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2022\/09\/successful-female-executive-manager-looks-through-paper-documents-analyzes-data.jpg",
+                                            "alt": "Successful female executive manager looks through paper documents, analyzes data",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "9c74e2b",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3133,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-29.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Marlon Vargas",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "<p>Reporter, Business<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2865,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/male-business-executive-talking-on-mobile-phone-in-office.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "ec41eb9",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3134,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-30.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Jane Malone",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Senior Story Editor",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2866,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/smiling-businesswoman-studio-shot.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "056a279",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3135,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-31.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Derek Moore",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Product Design Director",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2867,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/cheerful-confident-black-business-executive.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "d4d6ada",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3136,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-32.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Alison Mendoza",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Data Visualization Analyst",
+                                        "eael_fg_gallery_img": {
+                                            "id": 3635,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2022\/09\/entrepreneur-writing-on-tablet-computer.jpg",
+                                            "alt": "Entrepreneur Writing on Tablet Computer",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "f4a5cc3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3137,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-33.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Stan Presley",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "<p>Software Engineer<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2869,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-young-professional-man-in-suit-arms-crossed.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "3c2aec6",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3138,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-34.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Rebecca Turner",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Head of Subscription Growth",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2870,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/business-executive-using-digital-tablet.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "31d6af3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 3139,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-35.png"
+                                        }
+                                    }
+                                ],
+                                "images_per_page": 6,
+                                "load_more_text": "Load More",
+                                "nomore_items_text": "No more items!",
+                                "eael_fg_container_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_container_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_video_item_icon_hover_scale": "1.1",
+                                "eael_fg_item_content_bg_color": "#FFFFFF",
+                                "eael_fg_item_content_container_padding": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_item_content_title_color": "#191919",
+                                "eael_fg_item_content_text_color": "#393939",
+                                "eael_fg_item_content_alignment": "center",
+                                "fg_sf_placeholder": "Search Gallery Item...",
+                                "__globals__": {
+                                    "eael_fg_item_content_title_color": "globals\/colors?id=primary",
+                                    "eael_fg_item_content_title_typography_typography": "globals\/typography?id=0d262bb",
+                                    "eael_fg_item_content_text_color": "globals\/colors?id=text",
+                                    "eael_fg_item_content_text_typography_typography": "globals\/typography?id=36c5ea9",
+                                    "eael_fg_control_active_bg_color": "globals\/colors?id=accent",
+                                    "eael_fg_control_typography_typography": "globals\/typography?id=a906496",
+                                    "eael_fg_control_normal_text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-filterable-gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

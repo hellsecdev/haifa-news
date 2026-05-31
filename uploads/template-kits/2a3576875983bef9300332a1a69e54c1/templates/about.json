@@ -1,0 +1,897 @@
+{
+    "version": "0.4",
+    "title": "About",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "1f59f5a2",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "background_background": "classic",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "19445925",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "3161a48b",
+                            "settings": {
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"\" name=\"page-title\" settings=\"%7B%22include_context%22%3A%22%22%2C%22show_home_title%22%3A%22%22%2C%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                                },
+                                "title": "Add Your Heading Text Here",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "-20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "50",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_background_background": "classic",
+                                "__globals__": {
+                                    "_background_color": "globals\/colors?id=a141cd2",
+                                    "typography_typography": "globals\/typography?id=e767fbd",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "theme-page-title",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "35b7c010",
+            "settings": {
+                "structure": "20",
+                "margin": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "80",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "30",
+                    "bottom": "0",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "10",
+                    "bottom": "0",
+                    "left": "10",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "7b6c63f1",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "70",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7d691d11",
+                            "settings": {
+                                "title": "News Atlas is dedicated to helping people understand the world through on-the-ground, expert, and deeply reported independent journalism.",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=primary",
+                                    "typography_typography": "globals\/typography?id=d9f459b"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3eeff63f",
+                            "settings": {
+                                "editor": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.<\/p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=text",
+                                    "text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "3d3ca1b9",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "38f828f8",
+                            "settings": {
+                                "editor": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.<\/p>",
+                                "__globals__": {
+                                    "text_color": "globals\/colors?id=text",
+                                    "typography_typography": "globals\/typography?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "60910075",
+                            "settings": {
+                                "image": {
+                                    "id": 2856,
+                                    "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/grandfather-and-grandson-reading-the-news-.jpg",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "medium_large"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "17e1d22",
+            "settings": {
+                "structure": "20",
+                "margin": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "80",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "30",
+                    "bottom": "0",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "10",
+                    "bottom": "0",
+                    "left": "10",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "1165e828",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "72a247e",
+                            "settings": {
+                                "image": {
+                                    "id": 2857,
+                                    "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/senior-couple-leisure-outside-concept.jpg",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "medium_large"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "201d808c",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "80",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "5c8bf743",
+                            "settings": {
+                                "title": "Mission and Values",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=primary",
+                                    "typography_typography": "globals\/typography?id=d9f459b"
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "35dd45f3",
+                            "settings": {
+                                "editor": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>",
+                                "__globals__": {
+                                    "text_color": "globals\/colors?id=text",
+                                    "typography_typography": "globals\/typography?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3988bfa7",
+                            "settings": {
+                                "image": {
+                                    "id": 2858,
+                                    "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/two-freelance-business-women-in-their-startup-small-business-.jpg",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "medium_large"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "120de191",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 700,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "10",
+                    "bottom": "0",
+                    "left": "10",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "326bca40",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "316cfe37",
+                            "settings": {
+                                "title": "Our People",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=primary",
+                                    "typography_typography": "globals\/typography?id=d9f459b"
+                                },
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "a904098",
+                            "settings": {
+                                "editor": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.\u00a0<\/p>",
+                                "align": "center",
+                                "__globals__": {
+                                    "text_color": "globals\/colors?id=text",
+                                    "typography_typography": "globals\/typography?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "6ead9da4",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "320020c2",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "1ac549dd",
+                            "settings": {
+                                "eael_fg_items_to_show": "32",
+                                "eael_fg_filter_duration": 500,
+                                "columns": "4",
+                                "eael_fg_grid_item_height": "360",
+                                "eael_fg_caption_style": "card",
+                                "eael_fg_grid_hover_transition": {
+                                    "unit": "px",
+                                    "size": 148,
+                                    "sizes": []
+                                },
+                                "eael_fg_show_popup": "none",
+                                "eael_fg_all_label_text": "All",
+                                "eael_fg_controls": [
+                                    {
+                                        "eael_fg_control": "Executives",
+                                        "_id": "a756464"
+                                    },
+                                    {
+                                        "eael_fg_control": "In The Field",
+                                        "_id": "3840467"
+                                    },
+                                    {
+                                        "eael_fg_control": "Innovators",
+                                        "_id": "814d142"
+                                    }
+                                ],
+                                "eael_fg_gallery_items": [
+                                    {
+                                        "eael_fg_gallery_item_name": "Selena Garrett",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Executives",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "",
+                                        "eael_fg_gallery_item_content": "<p>Executive Editor<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2859,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-mature-woman-in-eyeglasses.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "5b87bc3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2871,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Leon Sharp",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Executives",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Chief Executive Officer",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2860,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/mature-corporate-executive-wearing-a-suit-and-smiling-confidently.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "bf769f6",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2872,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-1.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Elmer Holland",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Deputy Editor, Business",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2861,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-male-executive-in-office.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "92b5d01",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2873,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-2.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Sheila Davis",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "International Correspondent",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2862,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-attractive-afro-woman-in-coffee-shop.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "75f2a3e",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2874,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-3.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Harri Cooper",
+                                        "_id": "b821878",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "National Correspondent",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2863,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-a-young-smiling-professional-man-arms-crossed.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2875,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-4.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Tiffany Mack",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Supreme Court Reporter",
+                                        "eael_fg_gallery_img": {
+                                            "id": 3642,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2022\/09\/successful-female-executive-manager-looks-through-paper-documents-analyzes-data.jpg",
+                                            "alt": "Successful female executive manager looks through paper documents, analyzes data",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "9c74e2b",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2876,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-5.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Marlon Vargas",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "<p>Reporter, Business<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2865,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/male-business-executive-talking-on-mobile-phone-in-office.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "ec41eb9",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2877,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-6.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Jane Malone",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "In The Field",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Senior Story Editor",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2866,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/smiling-businesswoman-studio-shot.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "056a279",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2878,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-7.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Derek Moore",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Product Design Director",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2867,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/cheerful-confident-black-business-executive.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "d4d6ada",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2879,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-8.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Alison Mendoza",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Data Visualization Analyst",
+                                        "eael_fg_gallery_img": {
+                                            "id": 3635,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2022\/09\/entrepreneur-writing-on-tablet-computer.jpg",
+                                            "alt": "Entrepreneur Writing on Tablet Computer",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "f4a5cc3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2880,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-9.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Stan Presley",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "<p>Software Engineer<\/p>",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2869,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/portrait-of-young-professional-man-in-suit-arms-crossed.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "3c2aec6",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2881,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-10.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Rebecca Turner",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "eael_fg_gallery_control_name": "Innovators",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat_switch": "",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_item_content": "Head of Subscription Growth",
+                                        "eael_fg_gallery_img": {
+                                            "id": 2870,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2021\/10\/business-executive-using-digital-tablet.jpg",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "eael_fg_gallery_lightbox": "",
+                                        "eael_fg_gallery_link": "",
+                                        "_id": "31d6af3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 2882,
+                                            "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/play-icon-11.png"
+                                        }
+                                    }
+                                ],
+                                "images_per_page": 6,
+                                "load_more_text": "Load More",
+                                "nomore_items_text": "No more items!",
+                                "eael_fg_container_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_container_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_video_item_icon_hover_scale": "1.1",
+                                "eael_fg_item_content_bg_color": "#FFFFFF",
+                                "eael_fg_item_content_container_padding": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_item_content_title_color": "#191919",
+                                "eael_fg_item_content_text_color": "#393939",
+                                "eael_fg_item_content_alignment": "center",
+                                "fg_sf_placeholder": "Search Gallery Item...",
+                                "__globals__": {
+                                    "eael_fg_item_content_title_color": "globals\/colors?id=primary",
+                                    "eael_fg_item_content_title_typography_typography": "globals\/typography?id=0d262bb",
+                                    "eael_fg_item_content_text_color": "globals\/colors?id=text",
+                                    "eael_fg_item_content_text_typography_typography": "globals\/typography?id=36c5ea9",
+                                    "eael_fg_control_active_bg_color": "globals\/colors?id=accent",
+                                    "eael_fg_control_typography_typography": "globals\/typography?id=a906496",
+                                    "eael_fg_control_normal_text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-filterable-gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}

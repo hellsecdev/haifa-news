@@ -1,0 +1,89 @@
+{
+    "version": "0.4",
+    "title": "Block: Posts Ticker",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "2753e26c",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "5b00ac2e",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "22a869d0",
+                            "settings": {
+                                "eael_ticker_tag_text": "Trending Today",
+                                "posts_per_page": 5,
+                                "slider_speed": {
+                                    "unit": "px",
+                                    "size": 500,
+                                    "sizes": []
+                                },
+                                "eael_ticker_content_bg": "#FBF6EF",
+                                "eael_ticker_content_color": "#393939",
+                                "eael_ticker_hover_content_color": "#927C59",
+                                "eael_ticker_tag_bg_color": "#927C59",
+                                "eael_ticker_tag_padding": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "10",
+                                    "bottom": "10",
+                                    "left": "10",
+                                    "isLinked": true
+                                },
+                                "arrows_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "eael_ticker_hover_content_color": "globals\/colors?id=accent",
+                                    "eael_ticker_content_color": "globals\/colors?id=text",
+                                    "eael_ticker_content_bg": "globals\/colors?id=a141cd2",
+                                    "eael_ticker_content_typography_typography": "globals\/typography?id=6ab1e4b",
+                                    "eael_ticker_tag_bg_color": "globals\/colors?id=accent",
+                                    "eael_ticker_tag_typography_typography": "globals\/typography?id=beabbcc",
+                                    "arrows_bg_color_normal": "",
+                                    "arrows_color_normal": "globals\/colors?id=secondary",
+                                    "arrows_color_hover": "globals\/colors?id=primary"
+                                },
+                                "arrows_color_normal": "#939393",
+                                "arrows_color_hover": "#191919"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-content-ticker",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

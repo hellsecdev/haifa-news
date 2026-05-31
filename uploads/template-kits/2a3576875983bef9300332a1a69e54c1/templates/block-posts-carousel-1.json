@@ -1,0 +1,93 @@
+{
+    "version": "0.4",
+    "title": "Block: Posts Carousel 1",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "233720a5",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "7cc8923f",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "1c8315f7",
+                            "settings": {
+                                "limit": 10,
+                                "show_post_icon": "",
+                                "show_category": "",
+                                "show_comments": "",
+                                "card_height": {
+                                    "unit": "px",
+                                    "size": 160,
+                                    "sizes": []
+                                },
+                                "show_read_more": "",
+                                "slides_to_show": 5,
+                                "dots_size": {
+                                    "unit": "px",
+                                    "size": 8,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "card_bg_color": "",
+                                    "dots_color": "globals\/colors?id=accent",
+                                    "typography_teaser_title_typography": "globals\/typography?id=0d262bb",
+                                    "post_title_color": "globals\/colors?id=primary",
+                                    "_background_color": "globals\/colors?id=a141cd2",
+                                    "typography_teaser_meta_typography": "globals\/typography?id=36c5ea9",
+                                    "post_excerpt_text_color": "globals\/colors?id=text",
+                                    "post_meta_text_color": "globals\/colors?id=secondary"
+                                },
+                                "show_excerpt": "",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "20",
+                                    "bottom": "20",
+                                    "left": "20",
+                                    "isLinked": true
+                                },
+                                "_background_background": "classic",
+                                "post_title_color": "#191919",
+                                "post_meta_text_color": "#939393",
+                                "post_excerpt_text_color": "#393939",
+                                "dots_color": "#927C59",
+                                "_background_color": "#FBF6EF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "anwp-pg-classic-slider",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

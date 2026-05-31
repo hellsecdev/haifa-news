@@ -1,0 +1,224 @@
+{
+    "version": "0.4",
+    "title": "Block: Testimonial 2",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-testimonial",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "6f68c5e5",
+            "settings": {
+                "structure": "20",
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "0",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "a6be10",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "border_color": "#D3D3D3",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "border_color": ""
+                        },
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "282ab0d",
+                            "settings": {
+                                "image": {
+                                    "id": 3642,
+                                    "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/2022\/09\/successful-female-executive-manager-looks-through-paper-documents-analyzes-data.jpg",
+                                    "alt": "Successful female executive manager looks through paper documents, analyzes data",
+                                    "source": "library"
+                                },
+                                "eael_testimonial_name": "Sandy Osborne",
+                                "eael_testimonial_company_title": "Codecanyon",
+                                "eael_testimonial_description": "Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor amet consectetur adipiscing elit. Maece faucibus mollis interd. Pellentesque ornare lacinia quam venenatis vestibulum.",
+                                "eael_testimonial_enable_rating": "",
+                                "eael_testimonial_style": "icon-img-right-content",
+                                "eael_testimonial_background": "#FFFFFF",
+                                "eael_testimonial_alignment": "left",
+                                "eael_testimonial_user_display_block": "yes",
+                                "eael_testimonial_image_width": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "eael_testimonial_image_margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_testimonial_name_color": "#191919",
+                                "eael_testimonial_description_color": "#393939",
+                                "eael_testimonial_quotation_color": "#E4DDD0",
+                                "eael_testimonial_quotation_right": {
+                                    "unit": "%",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "eael_testimonial_name_color": "globals\/colors?id=primary",
+                                    "eael_testimonial_name_typography_typography": "globals\/typography?id=0d262bb",
+                                    "eael_testimonial_company_color": "globals\/colors?id=text",
+                                    "eael_testimonial_position_typography_typography": "globals\/typography?id=36c5ea9",
+                                    "eael_testimonial_description_color": "globals\/colors?id=text",
+                                    "eael_testimonial_description_typography_typography": "globals\/typography?id=text",
+                                    "eael_testimonial_quotation_color": "globals\/colors?id=dfceda1",
+                                    "eael_testimonial_background": "",
+                                    "eael_testimonial_quotation_typography_typography": "globals\/typography?id=dec4296"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-testimonial",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "6ca8dea9",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "border_color": "#D3D3D3",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "border_color": ""
+                        },
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "1dc845cb",
+                            "settings": {
+                                "image": {
+                                    "id": "2863",
+                                    "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/portrait-of-a-young-smiling-professional-man-arms-crossed.jpg"
+                                },
+                                "eael_testimonial_name": "Dean Holloway",
+                                "eael_testimonial_company_title": "Graphicriver",
+                                "eael_testimonial_description": "Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor amet consectetur adipiscing elit. Maece faucibus mollis interd. Pellentesque ornare lacinia quam venenatis vestibulum.",
+                                "eael_testimonial_enable_rating": "",
+                                "eael_testimonial_style": "icon-img-right-content",
+                                "eael_testimonial_background": "#FFFFFF",
+                                "eael_testimonial_alignment": "left",
+                                "eael_testimonial_user_display_block": "yes",
+                                "eael_testimonial_image_width": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "eael_testimonial_image_margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_testimonial_name_color": "#191919",
+                                "eael_testimonial_description_color": "#393939",
+                                "eael_testimonial_quotation_color": "#E4DDD0",
+                                "eael_testimonial_quotation_right": {
+                                    "unit": "%",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "eael_testimonial_name_color": "globals\/colors?id=primary",
+                                    "eael_testimonial_name_typography_typography": "globals\/typography?id=0d262bb",
+                                    "eael_testimonial_company_color": "globals\/colors?id=text",
+                                    "eael_testimonial_position_typography_typography": "globals\/typography?id=36c5ea9",
+                                    "eael_testimonial_description_color": "globals\/colors?id=text",
+                                    "eael_testimonial_description_typography_typography": "globals\/typography?id=text",
+                                    "eael_testimonial_quotation_color": "globals\/colors?id=dfceda1",
+                                    "eael_testimonial_background": "",
+                                    "eael_testimonial_quotation_typography_typography": "globals\/typography?id=dec4296"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-testimonial",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

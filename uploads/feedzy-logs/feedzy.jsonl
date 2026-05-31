@@ -1,0 +1,1 @@
+{"timestamp":"2025-09-06T01:33:37+00:00","level":"error","message":"Unable to find an image for 5 out of 5 items imported","context":{"job_id":1046,"source":"https://haifaru.co.il/rss","function":"Feedzy_Rss_Feeds_Import->run_job()","line":1389},"doing_ajax":true}

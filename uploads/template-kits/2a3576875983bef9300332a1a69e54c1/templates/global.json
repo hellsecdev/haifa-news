@@ -1,0 +1,700 @@
+{
+    "version": "0.4",
+    "title": "Global Kit Styles",
+    "type": "section",
+    "metadata": {
+        "template_type": "global-styles",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "additional_template_information": [
+            "These are the global theme styles configured through the Elementor Theme Styles area."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [],
+    "page_settings": {
+        "system_colors": [
+            {
+                "_id": "primary",
+                "title": "Heading \/ Title",
+                "color": "#191919"
+            },
+            {
+                "_id": "secondary",
+                "title": "Meta \/ Light text",
+                "color": "#939393"
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "color": "#393939"
+            },
+            {
+                "_id": "accent",
+                "title": "Primary",
+                "color": "#927C59"
+            }
+        ],
+        "custom_colors": [
+            {
+                "_id": "a141cd2",
+                "title": "Light Background",
+                "color": "#FBF6EF"
+            },
+            {
+                "_id": "dfceda1",
+                "title": "Divider \/ Shade",
+                "color": "#E4DDD0"
+            },
+            {
+                "_id": "058b082",
+                "title": "Light Border",
+                "color": "#E6E6E6"
+            },
+            {
+                "_id": "faeb185",
+                "title": "White",
+                "color": "#FFFFFF"
+            }
+        ],
+        "system_typography": [
+            {
+                "_id": "primary",
+                "title": "Primary",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_weight": "700",
+                "typography_typography": "custom",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "secondary",
+                "title": "Secondary",
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 15,
+                    "sizes": []
+                },
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.5,
+                    "sizes": []
+                },
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            },
+            {
+                "_id": "accent",
+                "title": "Accent",
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_weight": "500",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            }
+        ],
+        "custom_typography": [
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 44,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "e767fbd",
+                "title": "H1",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 38,
+                    "sizes": []
+                }
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "d9f459b",
+                "title": "H2",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                }
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "da21c65",
+                "title": "H3",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                }
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 17,
+                    "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.2,
+                    "sizes": []
+                },
+                "_id": "0d262bb",
+                "title": "H4",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 15,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.2,
+                    "sizes": []
+                },
+                "_id": "3f2ffb7",
+                "title": "H5",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 13,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.2,
+                    "sizes": []
+                },
+                "_id": "b11c54e",
+                "title": "H6",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.4,
+                    "sizes": []
+                },
+                "_id": "36c5ea9",
+                "title": "Post Block Meta"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 17,
+                    "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": -0.2,
+                    "sizes": []
+                },
+                "_id": "beabbcc",
+                "title": "Post Ticket Title"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 17,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.5,
+                    "sizes": []
+                },
+                "_id": "6ab1e4b",
+                "title": "Post Ticket Content"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0.3,
+                    "sizes": []
+                },
+                "_id": "a906496",
+                "title": "Button"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                },
+                "_id": "dec4296",
+                "title": "Subtext"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "a260c91",
+                "title": "Navigation"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 15,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "_id": "1048b30",
+                "title": "Sub Navigation"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0.3,
+                    "sizes": []
+                },
+                "_id": "2a7fd94",
+                "title": "Pagination"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 19,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.5,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                },
+                "_id": "e467bb4",
+                "title": "Testimonial Big Text"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 72,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "a83c142",
+                "title": "Price Amount"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 13,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "uppercase",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.5,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "_id": "58a9f88",
+                "title": "Pricing Ribbon"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.4,
+                    "sizes": []
+                },
+                "_id": "4db49e1",
+                "title": "FAQ Title"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 100,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 3,
+                    "sizes": []
+                },
+                "_id": "2f65961",
+                "title": "404 Title"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.4,
+                    "sizes": []
+                },
+                "_id": "d159138",
+                "title": "Single Post Meta"
+            },
+            {
+                "typography_typography": "custom",
+                "typography_font_family": "Frank Ruhl Libre",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 19,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "none",
+                "typography_font_style": "normal",
+                "typography_text_decoration": "none",
+                "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                },
+                "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": 0,
+                    "sizes": []
+                },
+                "_id": "239133b",
+                "title": "Single Post Author Meta"
+            }
+        ],
+        "default_generic_fonts": "Sans-serif",
+        "container_width": {
+            "unit": "px",
+            "size": 1170,
+            "sizes": []
+        },
+        "space_between_widgets": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+        },
+        "page_title_selector": "h1.entry-title",
+        "activeItemIndex": 1,
+        "paragraph_spacing": {
+            "unit": "em",
+            "size": 1.5,
+            "sizes": []
+        },
+        "link_normal_typography_text_decoration": "underline",
+        "link_hover_typography_text_decoration": "none",
+        "__globals__": {
+            "link_normal_color": "globals\/colors?id=accent",
+            "link_hover_color": "globals\/colors?id=primary",
+            "h1_color": "globals\/colors?id=primary",
+            "h2_color": "globals\/colors?id=primary",
+            "h3_color": "globals\/colors?id=primary",
+            "h4_color": "globals\/colors?id=primary",
+            "h5_color": "globals\/colors?id=primary",
+            "h6_color": "globals\/colors?id=primary",
+            "h1_typography_typography": "globals\/typography?id=e767fbd",
+            "h2_typography_typography": "globals\/typography?id=d9f459b",
+            "h3_typography_typography": "globals\/typography?id=da21c65",
+            "h4_typography_typography": "globals\/typography?id=0d262bb",
+            "h5_typography_typography": "globals\/typography?id=3f2ffb7",
+            "h6_typography_typography": "globals\/typography?id=b11c54e",
+            "body_typography_typography": "globals\/typography?id=text",
+            "body_color": "globals\/colors?id=text",
+            "button_text_color": "globals\/colors?id=primary",
+            "button_typography_typography": "",
+            "button_hover_background_color": "globals\/colors?id=primary",
+            "button_hover_border_color": "globals\/colors?id=primary",
+            "button_border_color": "globals\/colors?id=primary"
+        },
+        "button_typography_typography": "custom",
+        "button_typography_font_family": "Frank Ruhl Libre",
+        "button_typography_font_size": {
+            "unit": "px",
+            "size": 17,
+            "sizes": []
+        },
+        "button_typography_font_weight": "500",
+        "button_typography_text_decoration": "none",
+        "button_typography_line_height": {
+            "unit": "em",
+            "size": 1.2,
+            "sizes": []
+        },
+        "button_background_color": "#02010100",
+        "button_border_border": "solid",
+        "button_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+        },
+        "button_border_radius": {
+            "unit": "px",
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2",
+            "isLinked": true
+        },
+        "button_hover_text_color": "#FFFFFF",
+        "button_hover_border_border": "solid",
+        "button_hover_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+        },
+        "button_padding": {
+            "unit": "px",
+            "top": "8",
+            "right": "12",
+            "bottom": "8",
+            "left": "12",
+            "isLinked": false
+        },
+        "button_border_color": "#191919",
+        "button_hover_background_color": "#191919",
+        "button_hover_border_color": "#191919",
+        "default_page_template": "elementor_header_footer",
+        "button_text_color": "#191919",
+        "viewport_md": 768,
+        "viewport_lg": 1025
+    }
+}

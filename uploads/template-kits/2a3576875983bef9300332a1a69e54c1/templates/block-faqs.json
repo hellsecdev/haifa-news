@@ -1,0 +1,174 @@
+{
+    "version": "0.4",
+    "title": "Block: FAQs",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-faq",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "43188fd8",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 700,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "30",
+                    "right": "0",
+                    "bottom": "30",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "45adf753",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "__globals__": {
+                            "color_link_hover": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1fe7322e",
+                            "settings": {
+                                "title": "Frequently Asked Questions",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=d9f459b",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "78b7ff6f",
+                            "settings": {
+                                "tabs": [
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "415ed69"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "29ad37e"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "3b9b364"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "d5659f1"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "6e33999"
+                                    }
+                                ],
+                                "selected_icon": {
+                                    "value": "fas fa-chevron-down",
+                                    "library": "fa-solid"
+                                },
+                                "selected_active_icon": {
+                                    "value": "fas fa-chevron-up",
+                                    "library": "fa-solid"
+                                },
+                                "border_color": "#9393935E",
+                                "tab_active_color": "#927C59",
+                                "icon_align": "right",
+                                "icon_color": "#939393",
+                                "icon_active_color": "#927C59",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "content_color": "#393939",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=secondary",
+                                    "icon_active_color": "globals\/colors?id=accent",
+                                    "border_color": "",
+                                    "tab_active_color": "globals\/colors?id=accent",
+                                    "title_typography_typography": "globals\/typography?id=4db49e1",
+                                    "content_color": "globals\/colors?id=text",
+                                    "content_typography_typography": "globals\/typography?id=text",
+                                    "title_color": "globals\/colors?id=primary"
+                                },
+                                "title_html_tag": "h4",
+                                "title_color": "#191919",
+                                "title_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "20",
+                                    "bottom": "20",
+                                    "left": "20",
+                                    "isLinked": true
+                                },
+                                "content_padding": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "20",
+                                    "bottom": "10",
+                                    "left": "20",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "accordion",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

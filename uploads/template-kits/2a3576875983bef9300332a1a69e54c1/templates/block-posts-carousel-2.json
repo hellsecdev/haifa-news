@@ -1,0 +1,80 @@
+{
+    "version": "0.4",
+    "title": "Block: Posts Carousel 2",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "72d02353",
+            "settings": {
+                "gap": "no"
+            },
+            "elements": [
+                {
+                    "id": "440b0f1c",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "11d9e0cf",
+                            "settings": {
+                                "limit": 4,
+                                "show_post_icon": "",
+                                "show_category": "",
+                                "show_comments": "",
+                                "card_height": {
+                                    "unit": "px",
+                                    "size": 230,
+                                    "sizes": []
+                                },
+                                "show_read_more": "",
+                                "slides_to_show": 2,
+                                "dots_size": {
+                                    "unit": "px",
+                                    "size": 8,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "card_bg_color": "",
+                                    "dots_color": "globals\/colors?id=accent",
+                                    "typography_teaser_title_typography": "globals\/typography?id=da21c65",
+                                    "post_title_color": "globals\/colors?id=primary",
+                                    "typography_teaser_meta_typography": "globals\/typography?id=36c5ea9",
+                                    "post_excerpt_text_color": "globals\/colors?id=text"
+                                },
+                                "grid_thumbnail_size": "medium_large",
+                                "autoplay": "no"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "anwp-pg-classic-slider",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

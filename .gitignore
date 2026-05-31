@@ -1,0 +1,4 @@
+.env
+*.env
+haifanews-admin-password.txt
+_site/

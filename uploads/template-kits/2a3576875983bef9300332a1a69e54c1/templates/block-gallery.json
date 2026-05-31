@@ -1,0 +1,258 @@
+{
+    "version": "0.4",
+    "title": "Block: Gallery",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-gallery",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "539dd01b",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "406abbeb",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "background_background": "classic",
+                        "__globals__": {
+                            "background_color": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "255cb3ce",
+                            "settings": {
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "130b479b",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4b0adbb7",
+                                            "settings": {
+                                                "title": "Our Images",
+                                                "align": "left",
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "typography_typography": "globals\/typography?id=d9f459b"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "18a9ad06",
+                                            "settings": {
+                                                "text": "Divider",
+                                                "weight": {
+                                                    "unit": "px",
+                                                    "size": 2,
+                                                    "sizes": []
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "color": "globals\/colors?id=dfceda1"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4ac2caa9",
+                                            "settings": {
+                                                "gallery": [
+                                                    {
+                                                        "id": "2923",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/cruise-ship.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2924",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/space-satellite-orbiting-the-blue-planet.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2925",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/iew-of-famous-louvre-museum-with-louvre-pyramid-at-evening.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2926",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/solar-system.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2927",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/central-park-new-york.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2928",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/the-ancient-ruins-of-paestum.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2929",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/table-in-office-of-it-company.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2930",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/at-moms-studio.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2931",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/female-astronaut-with-glass-helmet.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2932",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/playful-office-worker-with-virtual-reality-glasses-and-woman-with-tablet.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2933",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/woman-enjoy-play-video-game.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2934",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/fine-art-painter.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2935",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/international-space-station-and-astronaut-.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2936",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/candidates-waiting-for-job-interviews-mid-section.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2937",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/interior-on-plane-with-champagne-for-trip.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2938",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/concept-of-italian-food-cooking.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2939",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/satellite-communications-dish-at-hofn-in-iceland-.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2940",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/toronto-city-skyline-at-night-ontario-canada.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2941",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/speeding-car.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2942",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/small-business-of-candy-souvenirs-shop.jpg"
+                                                    },
+                                                    {
+                                                        "id": "2943",
+                                                        "url": "https:\/\/www.news-atlas.hocud.com\/wp-content\/uploads\/sites\/6\/2021\/10\/tattoo.jpg"
+                                                    }
+                                                ],
+                                                "galleries": [
+                                                    {
+                                                        "gallery_title": "New Gallery",
+                                                        "_id": "9c3dbea"
+                                                    }
+                                                ],
+                                                "gallery_layout": "justified",
+                                                "ideal_row_height": {
+                                                    "unit": "px",
+                                                    "size": 130,
+                                                    "sizes": []
+                                                },
+                                                "ideal_row_height_tablet": {
+                                                    "unit": "px",
+                                                    "size": 120,
+                                                    "sizes": []
+                                                },
+                                                "ideal_row_height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 80,
+                                                    "sizes": []
+                                                },
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "gap_tablet": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "gap_mobile": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "show_all_galleries_label": "All"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "gallery",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents"
+    }
+}

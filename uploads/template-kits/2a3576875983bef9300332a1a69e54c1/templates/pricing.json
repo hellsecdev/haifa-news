@@ -1,0 +1,1452 @@
+{
+    "version": "0.4",
+    "title": "Pricing",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "7dbddc31",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "",
+                    "right": 0,
+                    "bottom": "",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "background_background": "classic",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "1d709e3b",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "32eee912",
+                            "settings": {
+                                "title": "",
+                                "header_size": "h1",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "-20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "50",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_background_background": "classic",
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"7b2364a\" name=\"post-title\" settings=\"%7B%7D\"]"
+                                },
+                                "__globals__": {
+                                    "_background_color": "globals\/colors?id=a141cd2",
+                                    "typography_typography": "globals\/typography?id=e767fbd",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "1404bfe1",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 700,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "1c601bff",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "2a57dd55",
+                            "settings": {
+                                "editor": "<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.<\/p>",
+                                "align": "center",
+                                "text_color": "#393939",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=dec4296",
+                                    "text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "55adcae1",
+            "settings": {
+                "structure": "30",
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "120",
+                    "bottom": "0",
+                    "left": "120",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "4b5634e7",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "608f7ebc",
+                            "settings": {
+                                "eael_pricing_table_style": "style-2",
+                                "eael_pricing_table_title": "Reader",
+                                "eael_pricing_table_sub_title": "Best for general reading and study",
+                                "eael_pricing_table_style_2_icon_new": {
+                                    "value": "fab fa-readme",
+                                    "library": "fa-brands"
+                                },
+                                "eael_pricing_table_price": "10",
+                                "eael_pricing_table_onsale": "",
+                                "eael_pricing_table_onsale_price": "89",
+                                "eael_pricing_table_price_cur": "$",
+                                "eael_pricing_table_price_period": "month",
+                                "eael_pricing_table_period_separator": "\/",
+                                "eael_pricing_table_items": [
+                                    {
+                                        "eael_pricing_table_item": "Daily 10 premium posts",
+                                        "_id": "c7ea9ed",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "3 months archive access",
+                                        "_id": "71d52a1",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Monthly 15 eBook downloads",
+                                        "_id": "ac403a3",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Monthly Highlights Newsletter",
+                                        "_id": "2bc9e9e",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Advertisements free reading",
+                                        "_id": "b553ea6",
+                                        "eael_pricing_table_list_icon_new": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_pricing_table_icon_mood": "",
+                                        "eael_pricing_table_list_icon_color": "",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Research board access",
+                                        "eael_pricing_table_list_icon_new": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_pricing_table_icon_mood": "",
+                                        "eael_pricing_table_list_icon_color": "",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "065a4c7"
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Publisher access",
+                                        "eael_pricing_table_list_icon_new": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_pricing_table_icon_mood": "",
+                                        "eael_pricing_table_list_icon_color": "",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "77fc61f"
+                                    }
+                                ],
+                                "eael_pricing_table_button_icon_new": {
+                                    "value": "far fa-paper-plane",
+                                    "library": "fa-regular"
+                                },
+                                "eael_pricing_table_button_icon_indent": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn": "Get Started",
+                                "eael_pricing_table_featured": "",
+                                "eael_pricing_table_featured_styles": "ribbon-2",
+                                "eael_pricing_table_featured_tag_text": "Featured",
+                                "eael_pricing_table_bg_color": "#FBF6EF",
+                                "eael_pricing_table_border_width": {
+                                    "unit": "px",
+                                    "top": "3",
+                                    "right": "3",
+                                    "bottom": "3",
+                                    "left": "3",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 10,
+                                    "blur": 0,
+                                    "spread": 8,
+                                    "color": "#FFFFFF"
+                                },
+                                "eael_pricing_table_title_color": "#191919",
+                                "eael_pricing_table_style_2_title_bg_color": "#E4DDD0",
+                                "eael_pricing_table_title_typography_typography": "custom",
+                                "eael_pricing_table_title_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_font_weight": "500",
+                                "eael_pricing_table_title_typography_text_transform": "none",
+                                "eael_pricing_table_title_typography_font_style": "normal",
+                                "eael_pricing_table_title_typography_text_decoration": "none",
+                                "eael_pricing_table_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_color": "#393939",
+                                "eael_pricing_table_subtitle_typography_typography": "custom",
+                                "eael_pricing_table_subtitle_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_subtitle_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_typography_font_weight": "400",
+                                "eael_pricing_table_subtitle_typography_text_transform": "none",
+                                "eael_pricing_table_subtitle_typography_font_style": "normal",
+                                "eael_pricing_table_subtitle_typography_text_decoration": "none",
+                                "eael_pricing_table_subtitle_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_onsale_color": "#191919",
+                                "eael_pricing_table_price_tag_onsale_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_onsale_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_onsale_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_onsale_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_onsale_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_color": "#927C59",
+                                "eael_pricing_table_original_price_currency_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_original_price_currency_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_font_weight": "400",
+                                "eael_pricing_table_original_price_currency_typography_text_transform": "none",
+                                "eael_pricing_table_original_price_currency_typography_font_style": "normal",
+                                "eael_pricing_table_original_price_currency_typography_text_decoration": "none",
+                                "eael_pricing_table_original_price_currency_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_color": "#927C59",
+                                "eael_pricing_table_price_tag_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_period_color": "#939393",
+                                "eael_pricing_table_price_preiod_typography_typography": "custom",
+                                "eael_pricing_table_price_preiod_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_preiod_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_preiod_typography_font_weight": "400",
+                                "eael_pricing_table_price_preiod_typography_text_transform": "none",
+                                "eael_pricing_table_price_preiod_typography_font_style": "normal",
+                                "eael_pricing_table_price_preiod_typography_text_decoration": "none",
+                                "eael_pricing_table_price_preiod_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_list_item_color": "#393939",
+                                "eael_pricing_table_list_item_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_text_color": "#FFFFFF",
+                                "eael_pricing_table_featured_tag_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_hover_color": "#191919",
+                                "eael_pricing_table_icon_color": "#FBF6EF",
+                                "eael_pricing_table_icon_hover_color": "#FBF6EF",
+                                "eael_pricing_table_icon_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_icon_border_color": "#E4DDD0",
+                                "eael_pricing_table_icon_border_hover_color": "#927C59",
+                                "eael_pricing_table_btn_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_typography": "custom",
+                                "eael_pricing_table_btn_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_btn_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_font_weight": "500",
+                                "eael_pricing_table_btn_typography_text_transform": "none",
+                                "eael_pricing_table_btn_typography_font_style": "normal",
+                                "eael_pricing_table_btn_typography_text_decoration": "none",
+                                "eael_pricing_table_btn_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_normal_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_normal_bg_color": "#927C59",
+                                "eael_pricing_table_btn_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_hover_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_hover_bg_color": "#191919",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 0,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0)"
+                                },
+                                "__globals__": {
+                                    "eael_pricing_table_bg_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_title_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_style_2_title_bg_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_title_typography_typography": "globals\/typography?id=d9f459b",
+                                    "eael_pricing_table_subtitle_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_subtitle_typography_typography": "globals\/typography?id=secondary",
+                                    "eael_pricing_table_icon_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_icon_bg_hover_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_icon_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_hover_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_border_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_icon_border_hover_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_normal_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_typography_typography": "globals\/typography?id=a906496",
+                                    "eael_pricing_table_btn_hover_bg_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_pricing_onsale_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_price_tag_onsale_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_original_price_currency_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_original_price_currency_typography_typography": "",
+                                    "eael_pricing_table_pricing_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_price_tag_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_price_preiod_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_pricing_period_color": "globals\/colors?id=secondary",
+                                    "eael_pricing_table_list_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_disable_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_item_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_featured_tag_bg_color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-pricing-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "3eebb3da",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "2dd0720d",
+                            "settings": {
+                                "eael_pricing_table_style": "style-2",
+                                "eael_pricing_table_title": "Scholar",
+                                "eael_pricing_table_sub_title": "Best for research and statistics",
+                                "eael_pricing_table_style_2_icon_new": {
+                                    "value": "fas fa-chart-bar",
+                                    "library": "fa-solid"
+                                },
+                                "eael_pricing_table_price": "35",
+                                "eael_pricing_table_onsale": "",
+                                "eael_pricing_table_onsale_price": "89",
+                                "eael_pricing_table_price_cur": "$",
+                                "eael_pricing_table_price_period": "month",
+                                "eael_pricing_table_period_separator": "\/",
+                                "eael_pricing_table_items": [
+                                    {
+                                        "eael_pricing_table_item": "Daily 25 premium posts",
+                                        "_id": "c7ea9ed",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "6 months archive access",
+                                        "_id": "71d52a1",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Monthly 50 eBook downloads",
+                                        "_id": "ac403a3",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Weekly Highlights Newsletter",
+                                        "_id": "2bc9e9e",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Advertisements free reading",
+                                        "_id": "b553ea6",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Research board access",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "0b73e81"
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Publisher access",
+                                        "eael_pricing_table_list_icon_new": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "eael_pricing_table_icon_mood": "",
+                                        "eael_pricing_table_list_icon_color": "",
+                                        "eael_pricing_item_tooltip": "",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "77fc61f"
+                                    }
+                                ],
+                                "eael_pricing_table_button_icon_new": {
+                                    "value": "far fa-paper-plane",
+                                    "library": "fa-regular"
+                                },
+                                "eael_pricing_table_button_icon_indent": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn": "Get Started",
+                                "eael_pricing_table_featured": "yes",
+                                "eael_pricing_table_featured_styles": "ribbon-2",
+                                "eael_pricing_table_featured_tag_text": "Featured",
+                                "eael_pricing_table_bg_color": "#FBF6EF",
+                                "eael_pricing_table_border_width": {
+                                    "unit": "px",
+                                    "top": "3",
+                                    "right": "3",
+                                    "bottom": "3",
+                                    "left": "3",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 10,
+                                    "blur": 0,
+                                    "spread": 8,
+                                    "color": "#FFFFFF"
+                                },
+                                "eael_pricing_table_title_color": "#191919",
+                                "eael_pricing_table_style_2_title_bg_color": "#E4DDD0",
+                                "eael_pricing_table_title_typography_typography": "custom",
+                                "eael_pricing_table_title_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_font_weight": "500",
+                                "eael_pricing_table_title_typography_text_transform": "none",
+                                "eael_pricing_table_title_typography_font_style": "normal",
+                                "eael_pricing_table_title_typography_text_decoration": "none",
+                                "eael_pricing_table_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_color": "#393939",
+                                "eael_pricing_table_subtitle_typography_typography": "custom",
+                                "eael_pricing_table_subtitle_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_subtitle_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_typography_font_weight": "400",
+                                "eael_pricing_table_subtitle_typography_text_transform": "none",
+                                "eael_pricing_table_subtitle_typography_font_style": "normal",
+                                "eael_pricing_table_subtitle_typography_text_decoration": "none",
+                                "eael_pricing_table_subtitle_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_onsale_color": "#191919",
+                                "eael_pricing_table_price_tag_onsale_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_onsale_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_onsale_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_onsale_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_onsale_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_color": "#927C59",
+                                "eael_pricing_table_original_price_currency_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_original_price_currency_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_font_weight": "400",
+                                "eael_pricing_table_original_price_currency_typography_text_transform": "none",
+                                "eael_pricing_table_original_price_currency_typography_font_style": "normal",
+                                "eael_pricing_table_original_price_currency_typography_text_decoration": "none",
+                                "eael_pricing_table_original_price_currency_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_color": "#927C59",
+                                "eael_pricing_table_price_tag_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_period_color": "#939393",
+                                "eael_pricing_table_price_preiod_typography_typography": "custom",
+                                "eael_pricing_table_price_preiod_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_preiod_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_preiod_typography_font_weight": "400",
+                                "eael_pricing_table_price_preiod_typography_text_transform": "none",
+                                "eael_pricing_table_price_preiod_typography_font_style": "normal",
+                                "eael_pricing_table_price_preiod_typography_text_decoration": "none",
+                                "eael_pricing_table_price_preiod_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_list_item_color": "#393939",
+                                "eael_pricing_table_list_item_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_text_color": "#FFFFFF",
+                                "eael_pricing_table_featured_tag_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_hover_color": "#191919",
+                                "eael_pricing_table_icon_color": "#FBF6EF",
+                                "eael_pricing_table_icon_hover_color": "#FBF6EF",
+                                "eael_pricing_table_icon_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_icon_border_color": "#E4DDD0",
+                                "eael_pricing_table_icon_border_hover_color": "#927C59",
+                                "eael_pricing_table_btn_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_typography": "custom",
+                                "eael_pricing_table_btn_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_btn_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_font_weight": "500",
+                                "eael_pricing_table_btn_typography_text_transform": "none",
+                                "eael_pricing_table_btn_typography_font_style": "normal",
+                                "eael_pricing_table_btn_typography_text_decoration": "none",
+                                "eael_pricing_table_btn_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_normal_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_normal_bg_color": "#927C59",
+                                "eael_pricing_table_btn_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_hover_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_hover_bg_color": "#191919",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 0,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0)"
+                                },
+                                "__globals__": {
+                                    "eael_pricing_table_bg_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_title_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_style_2_title_bg_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_title_typography_typography": "globals\/typography?id=d9f459b",
+                                    "eael_pricing_table_subtitle_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_subtitle_typography_typography": "globals\/typography?id=secondary",
+                                    "eael_pricing_table_icon_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_icon_bg_hover_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_icon_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_hover_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_border_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_icon_border_hover_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_normal_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_typography_typography": "globals\/typography?id=a906496",
+                                    "eael_pricing_table_btn_hover_bg_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_pricing_onsale_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_price_tag_onsale_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_original_price_currency_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_original_price_currency_typography_typography": "",
+                                    "eael_pricing_table_pricing_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_price_tag_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_price_preiod_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_pricing_period_color": "globals\/colors?id=secondary",
+                                    "eael_pricing_table_list_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_disable_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_item_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_featured_tag_bg_color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-pricing-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "7c73cd3",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "32be83d7",
+                            "settings": {
+                                "eael_pricing_table_style": "style-2",
+                                "eael_pricing_table_title": "Enterprise",
+                                "eael_pricing_table_sub_title": "Best for research and publishing",
+                                "eael_pricing_table_style_2_icon_new": {
+                                    "value": "fas fa-atlas",
+                                    "library": "fa-solid"
+                                },
+                                "eael_pricing_table_price": "90",
+                                "eael_pricing_table_onsale": "",
+                                "eael_pricing_table_onsale_price": "89",
+                                "eael_pricing_table_price_cur": "$",
+                                "eael_pricing_table_price_period": "month",
+                                "eael_pricing_table_period_separator": "\/",
+                                "eael_pricing_table_items": [
+                                    {
+                                        "eael_pricing_table_item": "Daily 75 premium posts",
+                                        "_id": "c7ea9ed",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "12 months archive access",
+                                        "_id": "71d52a1",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Monthly 100 eBook downloads",
+                                        "_id": "ac403a3",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Daily Highlights Newsletter",
+                                        "_id": "2bc9e9e",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        }
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Advertisements free reading",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "983409f"
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Research board access",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "1b9da56"
+                                    },
+                                    {
+                                        "eael_pricing_table_item": "Publisher access",
+                                        "eael_pricing_table_list_icon_color": "#927C59",
+                                        "eael_pricing_item_tooltip_content": "I'm a awesome tooltip!!",
+                                        "pricing_item_tooltip_animation_duration": 300,
+                                        "__globals__": {
+                                            "eael_pricing_table_list_icon_color": ""
+                                        },
+                                        "_id": "b3d1a23"
+                                    }
+                                ],
+                                "eael_pricing_table_button_icon_new": {
+                                    "value": "far fa-paper-plane",
+                                    "library": "fa-regular"
+                                },
+                                "eael_pricing_table_button_icon_indent": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn": "Get Started",
+                                "eael_pricing_table_featured": "",
+                                "eael_pricing_table_featured_styles": "ribbon-2",
+                                "eael_pricing_table_featured_tag_text": "Featured",
+                                "eael_pricing_table_bg_color": "#FBF6EF",
+                                "eael_pricing_table_border_width": {
+                                    "unit": "px",
+                                    "top": "3",
+                                    "right": "3",
+                                    "bottom": "3",
+                                    "left": "3",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 10,
+                                    "blur": 0,
+                                    "spread": 8,
+                                    "color": "#FFFFFF"
+                                },
+                                "eael_pricing_table_title_color": "#191919",
+                                "eael_pricing_table_style_2_title_bg_color": "#E4DDD0",
+                                "eael_pricing_table_title_typography_typography": "custom",
+                                "eael_pricing_table_title_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_font_weight": "500",
+                                "eael_pricing_table_title_typography_text_transform": "none",
+                                "eael_pricing_table_title_typography_font_style": "normal",
+                                "eael_pricing_table_title_typography_text_decoration": "none",
+                                "eael_pricing_table_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_title_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_color": "#393939",
+                                "eael_pricing_table_subtitle_typography_typography": "custom",
+                                "eael_pricing_table_subtitle_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_subtitle_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_subtitle_typography_font_weight": "400",
+                                "eael_pricing_table_subtitle_typography_text_transform": "none",
+                                "eael_pricing_table_subtitle_typography_font_style": "normal",
+                                "eael_pricing_table_subtitle_typography_text_decoration": "none",
+                                "eael_pricing_table_subtitle_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_onsale_color": "#191919",
+                                "eael_pricing_table_price_tag_onsale_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_onsale_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_onsale_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_onsale_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_onsale_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_color": "#927C59",
+                                "eael_pricing_table_original_price_currency_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_original_price_currency_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_font_weight": "400",
+                                "eael_pricing_table_original_price_currency_typography_text_transform": "none",
+                                "eael_pricing_table_original_price_currency_typography_font_style": "normal",
+                                "eael_pricing_table_original_price_currency_typography_text_decoration": "none",
+                                "eael_pricing_table_original_price_currency_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_original_price_currency_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_color": "#927C59",
+                                "eael_pricing_table_price_tag_typography_typography": "custom",
+                                "eael_pricing_table_price_tag_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_tag_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_tag_typography_font_weight": "700",
+                                "eael_pricing_table_price_tag_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_pricing_period_color": "#939393",
+                                "eael_pricing_table_price_preiod_typography_typography": "custom",
+                                "eael_pricing_table_price_preiod_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_price_preiod_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_price_preiod_typography_font_weight": "400",
+                                "eael_pricing_table_price_preiod_typography_text_transform": "none",
+                                "eael_pricing_table_price_preiod_typography_font_style": "normal",
+                                "eael_pricing_table_price_preiod_typography_text_decoration": "none",
+                                "eael_pricing_table_price_preiod_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_list_item_color": "#393939",
+                                "eael_pricing_table_list_item_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_featured_tag_text_color": "#FFFFFF",
+                                "eael_pricing_table_featured_tag_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_color": "#927C59",
+                                "eael_pricing_table_icon_bg_hover_color": "#191919",
+                                "eael_pricing_table_icon_color": "#FBF6EF",
+                                "eael_pricing_table_icon_hover_color": "#FBF6EF",
+                                "eael_pricing_table_icon_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "eael_pricing_table_icon_border_color": "#E4DDD0",
+                                "eael_pricing_table_icon_border_hover_color": "#927C59",
+                                "eael_pricing_table_btn_icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_typography": "custom",
+                                "eael_pricing_table_btn_typography_font_family": "Frank Ruhl Libre",
+                                "eael_pricing_table_btn_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_font_weight": "500",
+                                "eael_pricing_table_btn_typography_text_transform": "none",
+                                "eael_pricing_table_btn_typography_font_style": "normal",
+                                "eael_pricing_table_btn_typography_text_decoration": "none",
+                                "eael_pricing_table_btn_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_normal_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_normal_bg_color": "#927C59",
+                                "eael_pricing_table_btn_border_radius": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "eael_pricing_table_btn_hover_text_color": "#FFFFFF",
+                                "eael_pricing_table_btn_hover_bg_color": "#191919",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 0,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0)"
+                                },
+                                "__globals__": {
+                                    "eael_pricing_table_bg_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_title_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_style_2_title_bg_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_title_typography_typography": "globals\/typography?id=d9f459b",
+                                    "eael_pricing_table_subtitle_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_subtitle_typography_typography": "globals\/typography?id=secondary",
+                                    "eael_pricing_table_icon_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_icon_bg_hover_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_icon_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_hover_color": "globals\/colors?id=a141cd2",
+                                    "eael_pricing_table_icon_border_color": "globals\/colors?id=dfceda1",
+                                    "eael_pricing_table_icon_border_hover_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_normal_bg_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_btn_typography_typography": "globals\/typography?id=a906496",
+                                    "eael_pricing_table_btn_hover_bg_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_pricing_onsale_color": "globals\/colors?id=primary",
+                                    "eael_pricing_table_price_tag_onsale_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_original_price_currency_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_original_price_currency_typography_typography": "",
+                                    "eael_pricing_table_pricing_color": "globals\/colors?id=accent",
+                                    "eael_pricing_table_price_tag_typography_typography": "globals\/typography?id=a83c142",
+                                    "eael_pricing_table_price_preiod_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_pricing_period_color": "globals\/colors?id=secondary",
+                                    "eael_pricing_table_list_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_disable_item_color": "globals\/colors?id=text",
+                                    "eael_pricing_table_list_item_typography_typography": "globals\/typography?id=text",
+                                    "eael_pricing_table_featured_tag_bg_color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-pricing-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "5ce4b706",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "446ad25e",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "background_background": "classic",
+                        "margin": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "30",
+                            "right": "30",
+                            "bottom": "30",
+                            "left": "30",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=a141cd2"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "40d6d680",
+                            "settings": {
+                                "title": "15% off on Annual Subscription",
+                                "header_size": "h3",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=primary",
+                                    "typography_typography": "globals\/typography?id=da21c65"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "d55d236",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 700,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "30",
+                    "right": "0",
+                    "bottom": "30",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "6c198491",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "__globals__": {
+                            "color_link_hover": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "46e48b10",
+                            "settings": {
+                                "title": "Frequently Asked Questions",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=d9f459b",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "422c387",
+                            "settings": {
+                                "tabs": [
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "415ed69"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "29ad37e"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "3b9b364"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "d5659f1"
+                                    },
+                                    {
+                                        "tab_title": "Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.",
+                                        "tab_content": "<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum consectetur adipiscing elit.<\/p>",
+                                        "_id": "6e33999"
+                                    }
+                                ],
+                                "selected_icon": {
+                                    "value": "fas fa-chevron-down",
+                                    "library": "fa-solid"
+                                },
+                                "selected_active_icon": {
+                                    "value": "fas fa-chevron-up",
+                                    "library": "fa-solid"
+                                },
+                                "border_color": "#9393935E",
+                                "tab_active_color": "#927C59",
+                                "icon_align": "right",
+                                "icon_color": "#939393",
+                                "icon_active_color": "#927C59",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "content_color": "#393939",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=secondary",
+                                    "icon_active_color": "globals\/colors?id=accent",
+                                    "border_color": "",
+                                    "tab_active_color": "globals\/colors?id=accent",
+                                    "title_typography_typography": "globals\/typography?id=4db49e1",
+                                    "content_color": "globals\/colors?id=text",
+                                    "content_typography_typography": "globals\/typography?id=text",
+                                    "title_color": "globals\/colors?id=primary"
+                                },
+                                "title_html_tag": "h4",
+                                "title_color": "#191919",
+                                "title_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "20",
+                                    "bottom": "20",
+                                    "left": "20",
+                                    "isLinked": true
+                                },
+                                "content_padding": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "20",
+                                    "bottom": "10",
+                                    "left": "20",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "accordion",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}
